@@ -23,7 +23,8 @@ Overall, the PR demonstrates a comprehensive effort to extend the application's 
 **Relevant line:** ``billing-java/src/main/java/com/bito/billing/service/AerospikeEndpointService.java:25-38``
 <details>
 <summary>Click to view the code</summary>
-```@@ -25,7 +25,15 @@
+```
+@@ -25,7 +25,15 @@
 public void updateSoftAndHardLimit(Subscription subscription, String auth) {
 try {
 +
@@ -37,7 +38,8 @@ cacheSubscriptionDetails(subscription.getWorkspaceId(), cachedSubscription);
 } else {
 log.info("Using cached subscription details for workspaceId: {}", subscription.getWork
 }
-aerospikeFeign.updateDetails(request, auth);```
+aerospikeFeign.updateDetails(request, auth);
+```
 </details>
 
 
