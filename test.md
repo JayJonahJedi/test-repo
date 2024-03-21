@@ -3,24 +3,24 @@
 <img src="https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg" alt="Bito Logo" width="100" height="50">
 
 ## Code Review Agent Run Status
-- *Al Based Review:* :white_check_mark: Successful
-- *Static Analysis:* :white_check_mark: Successful
-- *Al Based Dedupe:* :white_check_mark: Successful
-- *Security Check Analysis:* :white_check_mark: Successful
+- **Al Based Review:** :white_check_mark: Successful
+- **Static Analysis:** :white_check_mark: Successful
+- **Al Based Dedupe:** :white_check_mark: Successful
+- **Security Check Analysis:** :white_check_mark: Successful
 
 ## Code Review Overview
-- *Summary:* This PR introduces several key changes across various Java classes and SQL scripts, focusing on handling subscription cancellations, updating query limits, and integrating with a new completion limit feature. It adds support for handling constraint violation exceptions globally, introduces API endpoints for subscription cancellation scheduling, and integrates with external services for limit management. Additionally, it refactors some existing code for clarity and efficiency.
-- *Code change type:* Feature Addition, Configuration Changes, Performance Improvement, Security
-- *Code change quality score (0-100, higher is better):* 🟢 85
-- *Unit tests added:* False
-- *Estimated effort to review (1-5, lower is better):* 🔴 2, due to the clear separation of concerns and adherence to coding standards, but the integration with external services and new feature additions require careful consideration.
+- **Summary:** This PR introduces several key changes across various Java classes and SQL scripts, focusing on handling subscription cancellations, updating query limits, and integrating with a new completion limit feature. It adds support for handling constraint violation exceptions globally, introduces API endpoints for subscription cancellation scheduling, and integrates with external services for limit management. Additionally, it refactors some existing code for clarity and efficiency.
+- **Code change type:** Feature Addition, Configuration Changes, Performance Improvement, Security
+- **Code change quality score:** 🟢 85 (0-100, higher is better)
+- **Unit tests added:** False
+- **Estimated effort to review:** 🔴 2 (1-5, lower is better), due to the clear separation of concerns and adherence to coding standards, but the integration with external services and new feature additions require careful consideration.
 
 ## High-level Feedback
 Overall, the PR demonstrates a comprehensive effort to extend the application's functionality, particularly around subscription management and limit tracking. The code is generally well-structured and follows best practices. However, there are areas where performance and security improvements are recommended. Ensuring thorough testing, especially around the new integration points, will be crucial to maintain stability and security.
 
 ## Suggestions
 1. Consider implementing a caching strategy for frequently accessed data, such as subscription details, to reduce the load on external services and improve response times.
-*Relevant line:* ''billing-java/src/main/java/com/bito/billing/service/AerospikeEndpointService.java:25-38''
+**Relevant line:** ``billing-java/src/main/java/com/bito/billing/service/AerospikeEndpointService.java:25-38``
 <details>
 <summary>Click to view the code</summary>
 @@ -25,7 +25,15 @@
