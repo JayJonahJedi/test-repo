@@ -22,9 +22,9 @@ Overall, the PR demonstrates a comprehensive effort to extend the application's 
 1. Consider implementing a caching strategy for frequently accessed data, such as subscription details, to reduce the load on external services and improve response times.
 **Relevant line:** ``billing-java/src/main/java/com/bito/billing/service/AerospikeEndpointService.java:25-38``
 <details>
-<summary>**Code suggestion**</summary>
-```
-@@ -25,7 +25,15 @@
+<summary>Code suggestion</summary>
+
+```@@ -25,7 +25,15 @@
 public void updateSoftAndHardLimit(Subscription subscription, String auth) {
 try {
 +
@@ -39,18 +39,6 @@ cacheSubscriptionDetails(subscription.getWorkspaceId(), cachedSubscription);
 log.info("Using cached subscription details for workspaceId: {}", subscription.getWork
 }
 aerospikeFeign.updateDetails(request, auth);
-```
-</details>
-
-<details>
-<summary>Click to view the code</summary>
-
-```python
-# Python code example
-def hello_world():
-    print("Hello, World!")
-
-hello_world()
 </details>
 ```
 
