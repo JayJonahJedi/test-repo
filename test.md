@@ -8,12 +8,15 @@
 - [Detailed Feedback](#detailed-feedback)
 - [Bito Code Review](#bito-code-review)
 
-## Overview
+<details>
+<summary>## Overview</summary>
 This document provides a comprehensive review of the latest merge request for the Example Project.
 
 [Back to the top](#table-of-contents)
+</details>
 
-## Specific Observations
+<details>
+<summary>## Specific Observations</summary>
 ### Observation 1
 - Observation details here.
 
@@ -21,8 +24,10 @@ This document provides a comprehensive review of the latest merge request for th
 - Observation details here.
 
 [Back to the top](#table-of-contents)
+</details>
 
-## Detailed Feedback
+<details>
+<summary>## Detailed Feedback</summary>
 1. **Code Quality**: The quality of code in this PR is satisfactory. However, there are improvements needed in the following areas:
    - Code block 1...
    - Code block 2...
@@ -32,11 +37,14 @@ This document provides a comprehensive review of the latest merge request for th
    - Performance aspect 2...
 
 [Back to the top](#table-of-contents)
+</details>
 
-## Bito Code Review
+<details>
+<summary>## Bito Code Review</summary>
 For more information, visit our [Bito Code Review Page](https://bito.example.com).
 
 [Back to the top](#table-of-contents)
+</details>
 
 ---
 
