@@ -8,17 +8,21 @@
 - [Detailed Feedback](#detailed-feedback)
 - [Bito Code Review](#bito-code-review)
 
-## Overview [Back to top] (#table-of-contents)
+## Overview
 This document provides a comprehensive review of the latest merge request for the Example Project.
 
-## Specific Observations [Back to top] (#table-of-contents)
+[Back to the top](#table-of-contents)
+
+## Specific Observations
 ### Observation 1
 - Observation details here.
 
 ### Observation 2
 - Observation details here.
 
-## Detailed Feedback [Back to top] (#table-of-contents)
+[Back to the top](#table-of-contents)
+
+## Detailed Feedback
 1. **Code Quality**: The quality of code in this PR is satisfactory. However, there are improvements needed in the following areas:
    - Code block 1...
    - Code block 2...
@@ -27,9 +31,13 @@ This document provides a comprehensive review of the latest merge request for th
    - Performance aspect 1...
    - Performance aspect 2...
 
-## Bito Code Review [Back to top] (#table-of-contents)
+[Back to the top](#table-of-contents)
+
+## Bito Code Review
 For more information, visit our [Bito Code Review Page](https://bito.example.com).
+
+[Back to the top](#table-of-contents)
 
 ---
 
-*Powered by <img src="https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg" alt="Bito Logo" width="100" height="50">*
+*Powered by <img src="https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg" alt="Bito Logo" width="50" height="25">*
