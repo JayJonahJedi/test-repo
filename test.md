@@ -42,6 +42,17 @@ aerospikeFeign.updateDetails(request, auth);
 ```
 </details>
 
+<details>
+<summary>Click to view the code</summary>
+
+```python
+# Python code example
+def hello_world():
+    print("Hello, World!")
+
+hello_world()
+</details>
+```
 
 ## Table of Contents
 - [Overview](#overview)
