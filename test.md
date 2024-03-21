@@ -1,6 +1,6 @@
 # Project Review - Example Project
 
-![Bito Logo](https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg)
+<img src="https://url_to_bito_logo.svg" alt="Bito Logo" width="100" height="50">
 
 ## Table of Contents
 - [Overview](#overview)
