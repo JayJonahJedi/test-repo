@@ -1,6 +1,6 @@
 # Project Review - Example Project
 
-<img src="https://url_to_bito_logo.svg" alt="Bito Logo" width="100" height="50">
+<img src="https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg" alt="Bito Logo" width="100" height="50">
 
 ## Table of Contents
 - [Overview](#overview)
@@ -32,4 +32,4 @@ For more information, visit our [Bito Code Review Page](https://bito.example.com
 
 ---
 
-*Powered by [Bito](https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg)*
+*Powered by <img src="https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg" alt="Bito Logo" width="100" height="50">*
