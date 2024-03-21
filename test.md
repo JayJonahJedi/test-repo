@@ -39,8 +39,8 @@ cacheSubscriptionDetails(subscription.getWorkspaceId(), cachedSubscription);
 log.info("Using cached subscription details for workspaceId: {}", subscription.getWork
 }
 aerospikeFeign.updateDetails(request, auth);
-</details>
 ```
+</details>
 
 ## Table of Contents
 - [Overview](#overview)
