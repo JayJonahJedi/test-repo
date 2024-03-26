@@ -17,7 +17,7 @@
 Overall, the PR demonstrates a comprehensive effort to extend the application's functionality, particularly around subscription management and limit tracking. The code is generally well-structured and follows best practices. However, there are areas where performance and security improvements are recommended. Ensuring thorough testing, especially around the new integration points, will be crucial to maintain stability and security.
 
 ## 📄 billing-java/src/main/java/com/bito/billing/service/AerospikeEndpointService.java
-## Suggestions
+### Suggestions
 1. Consider implementing a caching strategy for frequently accessed data, such as subscription details, to reduce the load on external services and improve response times.
 **Relevant line:** ``billing-java/src/main/java/com/bito/billing/service/AerospikeEndpointService.java:25-38``
 <details>
