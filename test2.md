@@ -78,6 +78,13 @@ For more information, visit our [Bito Code Review Page](https://bito.example.com
 
 [Back to the top](#table-of-contents)
 
+| Name | Age | City |
+|------|-----|------|
+| `<span style="background-color: red;">Alice</span>` | 24 | New York |
+| `<span style="background-color: blue;">Bob</span>` | `<span style="background-color: blue;">27</span>` | `<span style="background-color: blue;">Los Angeles</span>` |
+| Charlie | 35 | Chicago |
+
+
 ---
 
 *Powered by <img src="https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg" alt="Bito Logo" width="50" height="25">*
